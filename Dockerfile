@@ -6,4 +6,4 @@ WORKDIR /app
 
 VOLUME ["/data"]
 
-CMD ["sh", "-c", "node challenge-a.js && node challenge-b.js"]
+CMD ["sh", "-c", "node challenge_a.js && node challenge_b.js"]
